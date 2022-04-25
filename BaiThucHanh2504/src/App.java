@@ -17,7 +17,20 @@ public class App {
         FullTimeEmployee ft = new FullTimeEmployee("Tho", 20, "Tester", 2);
         ft.display();
 
-        //Test car
+        // Test car
         Car c = new TaxiCar();
+        c.Move();
+        c.Reverse();
+        c.Stop();
+        c.TurnLeft();
+        c.TurnRight();
+
+        // Test animal
+        Animal a = new Tiger();
+        a.Eat();
+        a.Roar();
+        a.Run();
+        a.Sleep();
+        a.Walk();
     }
 }
