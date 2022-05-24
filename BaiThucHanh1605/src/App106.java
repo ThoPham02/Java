@@ -1,4 +1,3 @@
-import java.util.Set;
 import java.util.TreeMap;
 
 public class App106 {
@@ -12,9 +11,9 @@ public class App106 {
         treeMap.put(5, 'e');
         treeMap.put(6, 'f');
 
-        Set<Entry<Integer, Character>> SetTreeMap = treeMap.entrySet();
+        
         System.out.println(" CÁc entry có trong settreemap:");
-        System.out.println(SetTreeMap);
+        System.out.println();
 
     }
 }
